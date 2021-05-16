@@ -1,8 +1,16 @@
 {
   "resources": [
+    {"id":{"name":"spr_ali","path":"sprites/spr_ali/spr_ali.yy",},"order":2,},
+    {"id":{"name":"spr_asteroids_small","path":"sprites/spr_asteroids_small/spr_asteroids_small.yy",},"order":3,},
+    {"id":{"name":"Obj_ship","path":"objects/Obj_ship/Obj_ship.yy",},"order":1,},
+    {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":2,},
+    {"id":{"name":"spr_asteroids_large","path":"sprites/spr_asteroids_large/spr_asteroids_large.yy",},"order":5,},
+    {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},"order":1,},
+    {"id":{"name":"room2_rm_game","path":"rooms/room2_rm_game/room2_rm_game.yy",},"order":1,},
+    {"id":{"name":"spr_asteroids_medium","path":"sprites/spr_asteroids_medium/spr_asteroids_medium.yy",},"order":4,},
     {"id":{"name":"obj_Cat","path":"objects/obj_Cat/obj_Cat.yy",},"order":0,},
     {"id":{"name":"SPR_CAT","path":"sprites/SPR_CAT/SPR_CAT.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -27,7 +35,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"room2_rm_game","path":"rooms/room2_rm_game/room2_rm_game.yy",},
+    {"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
