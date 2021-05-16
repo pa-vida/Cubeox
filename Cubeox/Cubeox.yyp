@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"obj_Cat","path":"objects/obj_Cat/obj_Cat.yy",},"order":0,},
+    {"id":{"name":"SPR_CAT","path":"sprites/SPR_CAT/SPR_CAT.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
