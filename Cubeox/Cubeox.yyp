@@ -1,8 +1,20 @@
 {
   "resources": [
+    {"id":{"name":"spr_ShipGun","path":"sprites/spr_ShipGun/spr_ShipGun.yy",},"order":3,},
+    {"id":{"name":"spr_Asteroid_Small","path":"sprites/spr_Asteroid_Small/spr_Asteroid_Small.yy",},"order":4,},
+    {"id":{"name":"obj_ShipGun","path":"objects/obj_ShipGun/obj_ShipGun.yy",},"order":3,},
+    {"id":{"name":"spr_SpaceCat","path":"sprites/spr_SpaceCat/spr_SpaceCat.yy",},"order":1,},
+    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":15,},
+    {"id":{"name":"spr_Asteroid_Medium","path":"sprites/spr_Asteroid_Medium/spr_Asteroid_Medium.yy",},"order":5,},
+    {"id":{"name":"spr_Asteroid_Large","path":"sprites/spr_Asteroid_Large/spr_Asteroid_Large.yy",},"order":6,},
+    {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},"order":16,},
+    {"id":{"name":"obj_Asteroid","path":"objects/obj_Asteroid/obj_Asteroid.yy",},"order":4,},
     {"id":{"name":"spr_cat","path":"sprites/spr_cat/spr_cat.yy",},"order":0,},
+    {"id":{"name":"obj_Ship","path":"objects/obj_Ship/obj_Ship.yy",},"order":1,},
+    {"id":{"name":"obj_SpaceCat","path":"objects/obj_SpaceCat/obj_SpaceCat.yy",},"order":2,},
     {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_Ship","path":"sprites/spr_Ship/spr_Ship.yy",},"order":2,},
+    {"id":{"name":"rm_Game","path":"rooms/rm_Game/rm_Game.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -27,7 +39,7 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"rm_Game","path":"rooms/rm_Game/rm_Game.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
