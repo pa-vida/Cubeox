@@ -16,10 +16,10 @@ draw_self();
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "rot_relative" "1"
-/// @DnDArgument : "sprite" "spr_SpaceCat"
+/// @DnDArgument : "sprite" "spr_SpaceCat "
 /// @DnDArgument : "frame" "FIndex"
 /// @DnDSaveInfo : "sprite" "spr_SpaceCat"
-draw_sprite_ext(spr_SpaceCat, FIndex, x + 0, y + 0, 1, 1, image_angle + 0, $FFFFFF & $ffffff, 1);
+draw_sprite_ext(spr_SpaceCat , FIndex, x + 0, y + 0, 1, 1, image_angle + 0, $FFFFFF & $ffffff, 1);
 
 /// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
@@ -48,10 +48,10 @@ var offsetY = lengthdir_y(24, image_angle);
 /// @DnDHash : 3C3C0B8F
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "xscale" "0.8"
+/// @DnDArgument : "xscale" "0.8 "
 /// @DnDArgument : "yscale" "0.8"
 /// @DnDArgument : "rot_relative" "1"
 /// @DnDArgument : "sprite" "spr_ShipGun"
 /// @DnDArgument : "frame" "FIndex"
 /// @DnDSaveInfo : "sprite" "spr_ShipGun"
-draw_sprite_ext(spr_ShipGun, FIndex, x + 0, y + 0, 0.8, 0.8, image_angle + 0, $FFFFFF & $ffffff, 1);
+draw_sprite_ext(spr_ShipGun, FIndex, x + 0, y + 0, 0.8 , 0.8, image_angle + 0, $FFFFFF & $ffffff, 1);
