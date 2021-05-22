@@ -1,12 +1,17 @@
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 53B47997
+randomize();
+
 /// @DnDAction : YoYo Games.Random.Choose
 /// @DnDVersion : 1
-/// @DnDHash : 7A47EFEC
+/// @DnDHash : 676F558F
 /// @DnDInput : 3
-/// @DnDArgument : "var" " sprite_index"
-/// @DnDArgument : "option" "spr_Asteroid_Small"
+/// @DnDArgument : "var" "sprite_index"
+/// @DnDArgument : "option" "spr_Asteroid_Large"
 /// @DnDArgument : "option_1" "spr_Asteroid_Medium"
-/// @DnDArgument : "option_2" "spr_Asteroid_Large"
- sprite_index = choose(spr_Asteroid_Small, spr_Asteroid_Medium, spr_Asteroid_Large);
+/// @DnDArgument : "option_2" "spr_Asteroid_Small"
+sprite_index = choose(spr_Asteroid_Large, spr_Asteroid_Medium, spr_Asteroid_Small);
 
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
