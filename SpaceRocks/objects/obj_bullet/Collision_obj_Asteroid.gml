@@ -42,9 +42,8 @@ with(other) {
 		/// @DnDHash : 76B8C2D5
 		/// @DnDParent : 5B5EC036
 		/// @DnDArgument : "soundid" "snd_bangAsteriodLrg"
-		/// @DnDArgument : "loop" "1"
 		/// @DnDSaveInfo : "soundid" "snd_bangAsteriodLrg"
-		audio_play_sound(snd_bangAsteriodLrg, 0, 1);
+		audio_play_sound(snd_bangAsteriodLrg, 0, 0);
 	
 		/// @DnDAction : YoYo Games.Loops.Repeat
 		/// @DnDVersion : 1

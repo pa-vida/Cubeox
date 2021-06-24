@@ -27,6 +27,7 @@
     {"id":{"name":"spr_debris","path":"sprites/spr_debris/spr_debris.yy",},"order":8,},
     {"id":{"name":"spr_Bullet","path":"sprites/spr_Bullet/spr_Bullet.yy",},"order":7,},
     {"id":{"name":"snd_beat1","path":"sounds/snd_beat1/snd_beat1.yy",},"order":3,},
+    {"id":{"name":"spr_Background","path":"sprites/spr_Background/spr_Background.yy",},"order":10,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":5,},
     {"id":{"name":"snd_win","path":"sounds/snd_win/snd_win.yy",},"order":11,},
     {"id":{"name":"snd_extraShip","path":"sounds/snd_extraShip/snd_extraShip.yy",},"order":5,},
@@ -57,7 +58,9 @@
   "tutorialPath": "",
   "configs": {
     "name": "Default",
-    "children": [],
+    "children": [
+      {"name":"NewConfig1","children":[],},
+    ],
   },
   "RoomOrder": [
     {"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},
