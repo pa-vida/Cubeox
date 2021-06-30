@@ -33,6 +33,7 @@
     {"id":{"name":"snd_extraShip","path":"sounds/snd_extraShip/snd_extraShip.yy",},"order":5,},
     {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},"order":8,},
     {"id":{"name":"snd_thrust","path":"sounds/snd_thrust/snd_thrust.yy",},"order":9,},
+    {"id":{"name":"SpawnOffCamera","path":"scripts/SpawnOffCamera/SpawnOffCamera.yy",},"order":0,},
     {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},"order":0,},
     {"id":{"name":"snd_shipDestroyed","path":"sounds/snd_shipDestroyed/snd_shipDestroyed.yy",},"order":0,},
     {"id":{"name":"snd_saucerBig","path":"sounds/snd_saucerBig/snd_saucerBig.yy",},"order":7,},
