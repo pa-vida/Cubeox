@@ -7,6 +7,7 @@
     {"id":{"name":"snd_win","path":"sounds/snd_win/snd_win.yy",},"order":12,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":6,},
     {"id":{"name":"saucerSmall","path":"sounds/saucerSmall/saucerSmall.yy",},"order":8,},
+    {"id":{"name":"spawn_off_camera","path":"scripts/spawn_off_camera/spawn_off_camera.yy",},"order":0,},
     {"id":{"name":"saucerBig","path":"sounds/saucerBig/saucerBig.yy",},"order":7,},
     {"id":{"name":"beat2","path":"sounds/beat2/beat2.yy",},"order":4,},
     {"id":{"name":"extraShip","path":"sounds/extraShip/extraShip.yy",},"order":5,},
