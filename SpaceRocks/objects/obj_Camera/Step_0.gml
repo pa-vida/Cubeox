@@ -29,3 +29,47 @@ if(l4071A287_0)
 	/// @DnDArgument : "arg_2" "cameraY"
 	camera_set_view_pos(view_camera[0], cameraX, cameraY);
 }
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 068B68CA
+/// @DnDInput : 3
+/// @DnDArgument : "script" "ChangeLayerPosition"
+/// @DnDArgument : "arg" ""Parallax_1""
+/// @DnDArgument : "arg_1" "cameraX * 0.5"
+/// @DnDArgument : "arg_2" "cameraY * 0.5"
+/// @DnDSaveInfo : "script" "ChangeLayerPosition"
+script_execute(ChangeLayerPosition, "Parallax_1", cameraX * 0.5, cameraY * 0.5);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 4DE0C2A5
+/// @DnDInput : 3
+/// @DnDArgument : "script" "ChangeLayerPosition"
+/// @DnDArgument : "arg" ""Parallax_2""
+/// @DnDArgument : "arg_1" "cameraX * 0.7"
+/// @DnDArgument : "arg_2" "cameraY * 0.7"
+/// @DnDSaveInfo : "script" "ChangeLayerPosition"
+script_execute(ChangeLayerPosition, "Parallax_2", cameraX * 0.7, cameraY * 0.7);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 6BF2C6AD
+/// @DnDInput : 3
+/// @DnDArgument : "script" "ChangeLayerPosition"
+/// @DnDArgument : "arg" ""Parallax_0""
+/// @DnDArgument : "arg_1" "cameraX * 0.9"
+/// @DnDArgument : "arg_2" "cameraY * 0.9"
+/// @DnDSaveInfo : "script" "ChangeLayerPosition"
+script_execute(ChangeLayerPosition, "Parallax_0", cameraX * 0.9, cameraY * 0.9);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 70BCB188
+/// @DnDInput : 3
+/// @DnDArgument : "script" "ChangeLayerPosition"
+/// @DnDArgument : "arg" ""Parallax_3 ""
+/// @DnDArgument : "arg_1" "cameraX * 0.98"
+/// @DnDArgument : "arg_2" "cameraY * 0.98"
+/// @DnDSaveInfo : "script" "ChangeLayerPosition"
+script_execute(ChangeLayerPosition, "Parallax_3 ", cameraX * 0.98, cameraY * 0.98);
