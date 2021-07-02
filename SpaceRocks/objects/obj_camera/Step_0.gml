@@ -29,3 +29,65 @@ if(l0581E76A_0)
 	/// @DnDArgument : "arg_2" "cameraY"
 	camera_set_view_pos(view_camera[0], cameraX, cameraY);
 }
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 2B4663D4
+/// @DnDInput : 3
+/// @DnDArgument : "script" "ChangeLayerPosition"
+/// @DnDArgument : "arg" ""Parallax_0""
+/// @DnDArgument : "arg_1" "cameraX * 0.9"
+/// @DnDArgument : "arg_2" "cameraY * 0.9"
+/// @DnDSaveInfo : "script" "ChangeLayerPosition"
+script_execute(ChangeLayerPosition, "Parallax_0", cameraX * 0.9, cameraY * 0.9);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 1FEEF527
+/// @DnDInput : 3
+/// @DnDArgument : "script" "ChangeLayerPosition"
+/// @DnDArgument : "arg" ""Parallax_1""
+/// @DnDArgument : "arg_1" "cameraX * 0.6"
+/// @DnDArgument : "arg_2" "cameraY * 0.6"
+/// @DnDSaveInfo : "script" "ChangeLayerPosition"
+script_execute(ChangeLayerPosition, "Parallax_1", cameraX * 0.6, cameraY * 0.6);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 230824F8
+/// @DnDInput : 3
+/// @DnDArgument : "script" "ChangeLayerPosition"
+/// @DnDArgument : "arg" ""Parallax_2""
+/// @DnDArgument : "arg_1" "cameraX * 0.69"
+/// @DnDArgument : "arg_2" "cameraY * 0.69"
+/// @DnDSaveInfo : "script" "ChangeLayerPosition"
+script_execute(ChangeLayerPosition, "Parallax_2", cameraX * 0.69, cameraY * 0.69);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 03FC0AE3
+/// @DnDInput : 3
+/// @DnDArgument : "script" "ChangeLayerPosition"
+/// @DnDArgument : "arg" ""Parallax_3""
+/// @DnDArgument : "arg_1" "cameraX * 0.98"
+/// @DnDArgument : "arg_2" "cameraY * 0.98"
+/// @DnDSaveInfo : "script" "ChangeLayerPosition"
+script_execute(ChangeLayerPosition, "Parallax_3", cameraX * 0.98, cameraY * 0.98);
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 5EAC1E7D
+/// @DnDInput : 2
+/// @DnDArgument : "function" "layer_x"
+/// @DnDArgument : "arg" ""Background""
+/// @DnDArgument : "arg_1" "cameraX * 0.9"
+layer_x("Background", cameraX * 0.9);
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 0C522873
+/// @DnDInput : 2
+/// @DnDArgument : "function" "layer_y"
+/// @DnDArgument : "arg" ""Background""
+/// @DnDArgument : "arg_1" "cameraY * 0.9"
+layer_y("Background", cameraY * 0.9);
