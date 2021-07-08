@@ -1,13 +1,13 @@
 {
-  "spriteId": {
-    "name": "spr_cat",
-    "path": "sprites/spr_cat/spr_cat.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_FactionEnemy",
+    "path": "objects/obj_FactionEnemy/obj_FactionEnemy.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ally",
-    "path": "folders/Objects/Faction/Ally.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Faction/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_cat",
+  "name": "obj_Enemy",
   "tags": [],
   "resourceType": "GMObject",
 }

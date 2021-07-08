@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Neutral",
+    "path": "folders/Objects/Faction/Neutral.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_Asteroid",
