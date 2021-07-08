@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_faction_neutral",
+    "path": "objects/obj_faction_neutral/obj_faction_neutral.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Neutral",
+    "path": "folders/Objects/Neutral.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_asteroid",
