@@ -19,6 +19,10 @@ var newbullet = instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7CCFF388
+/// @DnDInput : 2
 /// @DnDArgument : "expr" "image_angle"
+/// @DnDArgument : "expr_1" ""ally""
 /// @DnDArgument : "var" "newbullet.direction"
+/// @DnDArgument : "var_1" "newbullet.faction"
 newbullet.direction = image_angle;
+newbullet.faction = "ally";
