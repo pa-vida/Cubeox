@@ -7,6 +7,7 @@
     {"id":{"name":"obj_Enemy","path":"objects/obj_Enemy/obj_Enemy.yy",},"order":1,},
     {"id":{"name":"snd_lose","path":"sounds/snd_lose/snd_lose.yy",},"order":12,},
     {"id":{"name":"obj_ShipGun","path":"objects/obj_ShipGun/obj_ShipGun.yy",},"order":1,},
+    {"id":{"name":"CreateBullet","path":"scripts/CreateBullet/CreateBullet.yy",},"order":2,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":1,},
     {"id":{"name":"spr_SpaceCat","path":"sprites/spr_SpaceCat/spr_SpaceCat.yy",},"order":1,},
     {"id":{"name":"spr_starfield_0","path":"sprites/spr_starfield_0/spr_starfield_0.yy",},"order":12,},

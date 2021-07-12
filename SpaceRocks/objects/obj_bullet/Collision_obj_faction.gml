@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 271B60C1
-/// @DnDArgument : "var" "other"
+/// @DnDArgument : "var" "other.id"
 /// @DnDArgument : "not" "1"
 /// @DnDArgument : "value" "creator"
-if(!(other == creator))
+if(!(other.id == creator))
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
