@@ -1,28 +1,14 @@
-/// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
-/// @DnDHash : 2CDAF9C5
-/// @DnDArgument : "soundid" "fire"
-/// @DnDSaveInfo : "soundid" "fire"
-audio_play_sound(fire, 0, 0);
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 5E6F5753
+/// @DnDInput : 5
+/// @DnDBreak : 1
 
-/// @DnDAction : YoYo Games.Instances.Create_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 53466C82
-/// @DnDArgument : "xpos_relative" "1"
-/// @DnDArgument : "ypos_relative" "1"
-/// @DnDArgument : "var" "newbullet"
-/// @DnDArgument : "var_temp" "1"
-/// @DnDArgument : "objectid" "obj_bullet"
-/// @DnDSaveInfo : "objectid" "obj_bullet"
-var newbullet = instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 7CCFF388
-/// @DnDInput : 2
-/// @DnDArgument : "expr" "image_angle"
-/// @DnDArgument : "expr_1" ""ally""
-/// @DnDArgument : "var" "newbullet.direction"
-/// @DnDArgument : "var_1" "newbullet.faction"
-newbullet.direction = image_angle;
-newbullet.faction = "ally";
+/// @DnDArgument : "script" "create_bullet"
+/// @DnDArgument : "arg" "id"
+/// @DnDArgument : "arg_1" "faction"
+/// @DnDArgument : "arg_2" "image_angle"
+/// @DnDArgument : "arg_3" "6"
+/// @DnDArgument : "arg_4" "image_blend"
+/// @DnDSaveInfo : "script" "create_bullet"
+script_execute(create_bullet, id, faction, image_angle, 6, image_blend);

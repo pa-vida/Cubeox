@@ -2,12 +2,12 @@
 /// @DnDVersion : 1
 /// @DnDHash : 5C49AC8B
 /// @DnDInput : 2
-/// @DnDArgument : "var" "xx"
+/// @DnDArgument : "var" "bulletPosX"
 /// @DnDArgument : "value" "x"
-/// @DnDArgument : "var_1" "yy"
+/// @DnDArgument : "var_1" "bulletPosY"
 /// @DnDArgument : "value_1" "y"
-var xx = x;
-var yy = y;
+var bulletPosX = x;
+var bulletPosY = y;
 
 /// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
@@ -17,14 +17,14 @@ var yy = y;
 /// @DnDArgument : "var" "bulletWithinCamera"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "function" "point_in_rectangle"
-/// @DnDArgument : "arg" "x"
-/// @DnDArgument : "arg_1" "y"
+/// @DnDArgument : "arg" "bulletPosX"
+/// @DnDArgument : "arg_1" "bulletPosY"
 /// @DnDArgument : "arg_2" "cameraX"
 /// @DnDArgument : "arg_3" "cameraY"
 /// @DnDArgument : "arg_4" "cameraX + cameraWidth"
 /// @DnDArgument : "arg_5" "cameraY + cameraHeight"
 with(obj_camera) {
-	var bulletWithinCamera = point_in_rectangle(x, y, cameraX, cameraY, cameraX + cameraWidth, cameraY + cameraHeight);
+	var bulletWithinCamera = point_in_rectangle(bulletPosX, bulletPosY, cameraX, cameraY, cameraX + cameraWidth, cameraY + cameraHeight);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
